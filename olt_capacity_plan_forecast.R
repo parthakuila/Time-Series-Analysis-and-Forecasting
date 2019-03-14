@@ -18,16 +18,16 @@ rm(list=ls()) #Removes all items in Environment!
   library(gtools)
   ## Using Mongolite
   library(mongolite)
-  mongoUrl <- "mongodb://spectauser:spectaDb#011@10.0.0.14:27017/spectaData" ## Connect with Database
+  mongoUrl <- "mongodb://xxxxxxxxxxxxxxxxxxxxxxxxxxx" ## Connect with Database
   #### Create Input Collection ##
   # change col to your collection
   col_site <- "AAA_data_forecast_olt_khulna"
   #create connection (con)
-  con_site <- mongo(collection = col_site, url = mongoUrl, db="spectaData")
+  con_site <- mongo(collection = col_site, url = mongoUrl, db="xxxxxxxxxxx")
   #### create Output Collection
   col_site_test <-"weekly_olt_forecast"
   ## create connection (con)
-  con_site_test <- mongo(collection = col_site_test, url = mongoUrl, db="spectaData")
+  con_site_test <- mongo(collection = col_site_test, url = mongoUrl, db="xxxxxxxxxxxxx")
   # count how many records (fyi this is just a test)
   # con$count('{}')
   ## Check Data and convert Dataframe
