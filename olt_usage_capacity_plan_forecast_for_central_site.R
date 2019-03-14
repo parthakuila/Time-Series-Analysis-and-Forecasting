@@ -19,7 +19,7 @@ rm(list=ls()) #Removes all items in Environment!
   library(gtools)
   ## Using Mongolite
   library(mongolite)  ## mongodb database connection 
-  mongoUrl <- "mongodb://spectauser:spectaDb#011@10.0.0.14:27017/spectaData" #<-admin here is the mongodb database that stores the authentication info
+  mongoUrl <- "mongodb://dbusername:password@host:path/dbname" #<-admin here is the mongodb database that stores the authentication info
   ### Collection of Input Data ####
   ## Site wise change the collection name ##
   col_site <- "AAA_data_forecast_olt_ctg"
