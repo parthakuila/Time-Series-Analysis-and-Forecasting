@@ -13,7 +13,7 @@ library(forecast)
 library(TSA)
 ## Using Mongolite
 library(mongolite)
-mongoUrl <- "mongodb://spectauser:spectaDb#011@10.0.0.14:27017/spectaData" ## Connect with Database
+mongoUrl <- "mongodb://dbuser:dbpassword@host:path/dbname" ## Connect with Database
 #### Create Input Collection ##
 # change col to your collection
 col_site <- "AAA_data_forecast_olt_sylhet"
